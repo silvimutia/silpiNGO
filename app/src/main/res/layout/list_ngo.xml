@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="50dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:id="@+id/ll_ngo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama NGO"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:textSize="18sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_bidang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bidang NGO"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat NGO"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tv_deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi NGO"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
